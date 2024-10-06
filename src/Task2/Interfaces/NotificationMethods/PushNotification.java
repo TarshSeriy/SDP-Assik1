@@ -1,4 +1,6 @@
-package Task2;
+package Task2.Interfaces.NotificationMethods;
+
+import Task2.Interfaces.Notification;
 
 public class PushNotification implements Notification {
     @Override

@@ -5,6 +5,10 @@ import Task1.PaymentMethods.CreditCardPayment;
 import Task1.PaymentMethods.PayPalPayment;
 import Task1.PaymentProcessor;
 import Task2.*;
+import Task2.Interfaces.Notification;
+import Task2.Interfaces.NotificationMethods.EmailNotification;
+import Task2.Interfaces.NotificationMethods.PushNotification;
+import Task2.Interfaces.NotificationMethods.SMSNotification;
 
 public class Main{
     public static void main(String[] args){
